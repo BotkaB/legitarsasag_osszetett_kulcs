@@ -1,0 +1,113 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "legitarsasag",
+    "collectionId": "fa3d15b1-b3cc-420e-b8b3-8306394cfc47",
+    "dateExported": "2024-11-08T19:28:27.594Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e886bb4d-2306-4a65-ba7d-94eb680b85fe",
+            "colId": "fa3d15b1-b3cc-420e-b8b3-8306394cfc47",
+            "containerId": "",
+            "name": "get/users",
+            "url": "http://localhost:8000/api/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-08T18:36:33.619Z",
+            "modified": "2024-11-08T19:26:39.972Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{ \"name\": \"ifj Mortimer Hills\",\n\"email\": \"carissa00@example.org\", \n\"password\": \"24356\" }",
+                "form": []
+            }
+        },
+        {
+            "_id": "0fbefcfc-40d2-42d5-be07-07d006c0816d",
+            "colId": "fa3d15b1-b3cc-420e-b8b3-8306394cfc47",
+            "containerId": "",
+            "name": "get/users/id",
+            "url": "http://localhost:8000/api/users/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-08T18:39:01.908Z",
+            "modified": "2024-11-08T18:40:59.551Z",
+            "headers": []
+        },
+        {
+            "_id": "f1ff57c8-e72e-4b11-9c0e-8ed088d09dc9",
+            "colId": "fa3d15b1-b3cc-420e-b8b3-8306394cfc47",
+            "containerId": "",
+            "name": "/post/users",
+            "url": "http://localhost:8000/api/users",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-11-08T18:50:58.161Z",
+            "modified": "2024-11-08T18:59:02.478Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\": \"johndoe2@example.com\",\r\n  \"password\": \"password123\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "14fb736f-91a0-4e80-9873-22b21c5c1dcf",
+            "colId": "fa3d15b1-b3cc-420e-b8b3-8306394cfc47",
+            "containerId": "",
+            "name": "put/users/id",
+            "url": "http://localhost:8000/api/users/1?name=Özv. Mortinerné&email=ydfgv @dsfsgkv.hu&password=ydfgkjnes234!",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-11-08T19:01:03.836Z",
+            "modified": "2024-11-08T19:21:58.501Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Özv. Mortinerné",
+                    "isPath": false
+                },
+                {
+                    "name": "email",
+                    "value": "ydfgv @dsfsgkv.hu",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "ydfgkjnes234!",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "71afa167-d312-4321-8556-a26eb7087080",
+            "colId": "fa3d15b1-b3cc-420e-b8b3-8306394cfc47",
+            "containerId": "",
+            "name": "delete/users/id",
+            "url": "http://localhost:8000/api/users/102",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-11-08T19:15:24.313Z",
+            "modified": "2024-11-08T19:27:22.286Z",
+            "headers": []
+        }
+    ],
+    "ref": "GJqdxf57C-YyEfjpcx905s7cWNLSR7wjrv5C4ZRkHuOq1W8wi5SrXud2Divd5XSbE5DLiyF5hCE1D2zxZ_X_Ng"
+}
