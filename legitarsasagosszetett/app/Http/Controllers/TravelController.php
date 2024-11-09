@@ -28,7 +28,7 @@ class TravelController extends Controller
         }
     
         public function update(Request $request, $flight_id, $user_id){
-            $travel=$this->show($flight_id, $useer_id);
+            $travel=$this->show($flight_id, $user_id);
             $travel->fill($request->all());
             $travel->save();
         }
